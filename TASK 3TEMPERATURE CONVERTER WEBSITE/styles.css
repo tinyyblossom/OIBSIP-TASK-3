@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
